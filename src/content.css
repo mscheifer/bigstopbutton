@@ -1,0 +1,26 @@
+#stop-loading-button {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100000;
+  width: 50vw;
+  height: 50vw;
+  border-radius: 50%; /* Circular */
+
+  background: white;
+  transition: background 1s;
+  border: 2px solid black;
+  
+  font-size: 30vw;
+  align-items: center;
+  justify-content: center;
+}
+
+#stop-loading-button:hover {
+  background: lightgrey;
+}
+
+#stop-loading-button:active {
+  background: tomato;
+}
